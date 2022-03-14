@@ -5,7 +5,7 @@
 const CACHE_STATIC_NAME = 'assign-static-v2-%BUILDVERSION%';
 const CACHE_DYNAMIC_NAME = 'assign-dynamic-v2-%BUILDVERSION%';
 
-const whiteList = ['/assign', '/assign/', '/assign/index.html'];
+const whiteList = ['/page1', '/page2'];
 
 // The URL constructor is available in all browsers that support SW.
 self.addEventListener('install', function (event) {
@@ -36,7 +36,7 @@ self.addEventListener('activate', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
-	if (event.request.url.indexOf('/assign') === -1) {
+	if (event.request.url.indexOf('/page1') === -1) {
 		return false;
 	}
 	// console.log('[Service Worker] cached => ', event.request.url)
