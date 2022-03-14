@@ -1,9 +1,8 @@
 /* eslint-disable no-restricted-globals */
 // https://web.dev/offline-fallback-page/
-// @ts-nocheck
 
-const CACHE_STATIC_NAME = 'assign-static-v2-%BUILDVERSION%';
-const CACHE_DYNAMIC_NAME = 'assign-dynamic-v2-%BUILDVERSION%';
+const CACHE_STATIC_NAME = 'static-v2-%BUILDVERSION%';
+const CACHE_DYNAMIC_NAME = 'dynamic-v2-%BUILDVERSION%';
 
 const whiteList = ['/page1', '/page2'];
 
