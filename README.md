@@ -9,3 +9,7 @@ sw experiments
 # Reference
 
 https://deanhume.com/displaying-a-new-version-available-progressive-web-app/
+
+# Licence
+
+MIT
