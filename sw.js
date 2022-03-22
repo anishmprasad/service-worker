@@ -2,8 +2,8 @@
 // https://web.dev/offline-fallback-page/
 
 const SCOPE = 'module'
-const CACHE_STATIC_NAME = 'static-v2-%BUILDVERSION%';
-const CACHE_DYNAMIC_NAME = 'dynamic-v2-%BUILDVERSION%';
+const CACHE_STATIC_NAME = `${SCOPE}static-v2-%BUILDVERSION%`;
+const CACHE_DYNAMIC_NAME = `${SCOPE}dynamic-v2-%BUILDVERSION%`;
 
 const whiteList = ['/page1', '/page2'];
 
