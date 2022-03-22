@@ -1,6 +1,7 @@
 /* eslint-disable no-restricted-globals */
 // https://web.dev/offline-fallback-page/
 
+const SCOPE = 'module'
 const CACHE_STATIC_NAME = 'static-v2-%BUILDVERSION%';
 const CACHE_DYNAMIC_NAME = 'dynamic-v2-%BUILDVERSION%';
 
